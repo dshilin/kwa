@@ -1,0 +1,27 @@
+			<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+				<%= render(:partial => "cart" , :object => @cart) %>
+			<% end %>
+
+<h1><%= @product.name %></h1>
+<div class="currency">Цена: <%= number_to_currency(@product.price, :unit => 'руб', :format => "%n %u") %></div>
+<table>
+	<tr>
+		<td><%= image_tag @product.photo.url(:original) %></td>
+		<td class="description"><%= @product.description %></td>
+	</tr>
+        <tr>
+          <td>
+            
+          </td>
+          <td>
+
+			<% form_remote_tag :url => { :controller=>"shop", :action => :add_to_cart, :id => @product } do %>
+				<%= submit_tag "Добавить в корзину" %>
+			<% end %>
+          </td>
+        </tr>
+</table>
+<h2><%= link_to 'Назад', :back %></h2>
+<% permitted_to? :manage, :products do %>
+<%= link_to 'Изменить товар', edit_product_path(@product) %>
+<%end%>

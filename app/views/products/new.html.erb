@@ -1,0 +1,67 @@
+<% content_for :head do%>
+  <%= javascript_include_tag "jquery"%>
+ <script type="text/javascript">
+     $(document).ready(function()
+     {
+       initial_product_category_id = $("#product_category_id").val();
+       $.ajax({
+         type: "GET",
+         url: '../../products/subcategory_list',
+         data: "category_id="+initial_product_category_id,
+         success: function(html){
+           $("#subcategories").html(html);
+         }
+       });
+
+
+     $("#product_category_id").live("change",function(){
+       change_product_category_id = $("#product_category_id").val();
+       $.ajax({
+        type: "GET",
+        url: '../../products/subcategory_list',
+        data: "category_id="+change_product_category_id,
+        success: function(html){
+          $("#subcategories").html(html);
+        }
+      });
+
+    })
+    });
+ </script>
+<% end%>
+<h1>Добавить в каталог товар</h1>
+
+<% form_for :product, :url => products_path, :html => { :multipart => true } do |f| %>
+  
+  <%= f.error_messages %>
+  
+  <p><%= label_tag 'Путь к фото' %><br/>
+  	<%= f.file_field :photo %>
+  </p> 
+    
+  <p>Укажите название товара<br/>
+  	<%= f.text_field(:name) %>
+  </p>
+  
+  <p>Укажите описание товара<br/>
+  	<%= f.text_area(:description) %>
+  </p>
+
+  <p>Укажите цену товара<br/>
+  	<%= f.text_field(:price) %>
+  </p>
+  Категория
+  <p id="categories">
+      <%= collection_select :product, :category_id,@categories,:id,:name %>
+  </p>
+ Подкатегория
+  <p id="subcategories">
+
+ </p>
+  <p>
+    <%= f.submit "Добавить" %>
+  </p>
+
+<% end %>
+
+<%= link_to 'Назад', products_path %>

@@ -1,0 +1,19 @@
+<%= link_to 'Добавить товар', new_product_path %>
+<h1>Каталог детских товаров</h1>
+
+<table>
+	<th>Название:</th>
+	<th>Цена:</th>
+<% for product in @products %>
+  <tr>
+  	<td><h2><%= product.name %></h2></td>
+	<td><%= product.price %></td>
+  </tr>
+
+
+  <tr>
+    <td><%= link_to 'Просмотреть товар', product %> |
+	<%= link_to 'Удалить', product, :confirm => 'Вы уверены?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>

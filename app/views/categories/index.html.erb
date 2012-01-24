@@ -1,0 +1,27 @@
+<h1>Категории</h1>
+
+<table>
+<% for category in @categories %>
+  <tr>
+  	<td><h2><%= category.name %></h2>
+          Подкатегории:<br/>
+        <% for sub in category.subcategories do %>
+          <ul><li>
+       <h4><%= sub.name %></h4></li></ul>
+       <%= link_to 'Редактировать подкатегорию', edit_subcategory_path(sub) %> |
+       <%= link_to 'Удалить подкатегорию', sub, :confirm => 'Уверены?', :method => :delete %><hr/>
+        <% end %>
+       </td>
+  </tr>
+  <tr>
+    <td><%= link_to 'Редактировать категорию', edit_category_path(category) %>    |
+	<%= link_to 'Удалить категорию', category, :confirm => 'Уверены?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Новая категория', new_category_path %> |
+
+<%= link_to 'Новая подкатегория', new_subcategory_path %><br/>

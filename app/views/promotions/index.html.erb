@@ -1,0 +1,15 @@
+<h1>Акции</h1>
+
+<% for promotion in @promotions %>
+  	<%= promotion.text %><br />
+<% end %>
+<% permitted_to? :manage, :promotions do %>
+<div class='admtext'>
+	<% if Promotion.count.zero? %>
+		<%= link_to 'Добавить текст на страницу Акции', new_promotion_path %>
+	<% else %>
+		<%= link_to 'Изменить текст на странице Акции', edit_promotion_path(promotion) %> |
+		<%= link_to 'Удалить текст со страницы Акции', promotion, :confirm => 'Вы уверены?', :method => :delete %>
+	<% end %>	
+</div>
+<%end%>

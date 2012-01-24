@@ -1,0 +1,25 @@
+<% hidden_div_if(@cart.items.empty?, :id => "cart" ) do %>
+  <%= render(:partial => "cart" , :object => @cart) %>
+<% end %>
+
+<% permitted_to? :manage, :products do %>
+    <%= link_to 'Управление каталогом', products_path %>
+<% end %>
+<h1>Каталог детских товаров</h1>
+<%for category in @categories%>
+	<div class='product'>
+		<h4><%=category.name%></h4><br/>
+		<%=link_to image_tag(category.photo.url), :controller=>:shop, :action => :products_by_category, :id => category.id%>
+	</div>
+<%end%>
+<!--<% for product in @products -%>
+<div class='product'>
+	<h4><%=h product.name %></h4>
+    <%= link_to image_tag(product.photo.url(:medium)), product %>
+    <h4>Цена: <%= number_to_currency(product.price, :unit => 'руб', :format => "%n %u") %></h4>
+</div>
+<% end %>
+<br />
+<br />
+<%= will_paginate @products, :class=>'paginate' %>
+-->

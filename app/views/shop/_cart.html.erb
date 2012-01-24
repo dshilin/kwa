@@ -1,0 +1,12 @@
+<h1>Ваша корзина:</h1>
+<table>
+  <th>Колличество:</th>
+  <th>Название:</th>
+  <th>Сумма:</th>
+<%= render(:partial => "cart_item" , :collection => cart.items) %>
+
+<tr>
+<td><%= button_to "Оформить заказ" , :action => :checkout %></td>
+<td><%= button_to "Очистить" , :action => :empty_cart %></td>
+</tr>
+</table>

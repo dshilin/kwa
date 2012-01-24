@@ -1,0 +1,10 @@
+<% for subcategory in @subcategories %>
+  <tr>
+  	<td><h2><%= subcategory.name %></h2>
+       </td>
+  </tr>
+  <tr>
+    <td><%= link_to 'Редактировать категорию', edit_subcategory_path(subcategory) %>    |
+	<%= link_to 'Удалить категорию', subcategory, :confirm => 'Уверены?', :method => :delete %></td>
+  </tr>
+<% end %>
