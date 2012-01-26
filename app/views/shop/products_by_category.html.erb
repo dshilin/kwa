@@ -3,12 +3,11 @@
 <% end %>
 
 <h1>Каталог детских товаров</h1>
-<% for product in @products -%>
+<% for sub in @subcategories -%>
 <div class='product'>
-  <h4><%=h product.name %></h4>
-  <%= link_to image_tag(product.photo.url(:medium)), product %>
-  <h4>Цена: <%= number_to_currency(product.price, :unit => 'руб', :format => "%n %u") %></h4>
+  <h4><%=h sub.name %></h4>
+  <%= link_to image_tag(sub.photo.url(:medium)), :controller=>:shop, :action => :products_by_subcategory, :id => sub.id %>
+  
 <br />	
 </div>
 <% end %>
-<%= will_paginate @products, :class=>'paginate' %>

@@ -1,15 +1,15 @@
 <h1>Добавить подкатегорию</h1>
 
-<% form_for(@subcategory) do |f| %>
-  <%= f.error_messages %>
-
-<p>Выберите категорию<br/>
-<%= select(:subcategory, :category_id, Category.all.collect {|p| [p.name, p.id]}, {}) %>
-</p>
+<% form_for :subcategory, :url => subcategories_path, :html => { :multipart => true } do |f| %>
+  <p/>Выберите категорию<br/><%= select(:subcategory, :category_id, Category.all.collect {|p| [p.name, p.id]}, {}) %>
+  <p>Путь к фото<br/>
+  	<%= f.file_field :photo %>
+  </p> 
+  
   <p>Укажите подкатегорию<br/>
   	<%= f.text_field(:name) %>
   </p>
-
+  
   <p>
     <%= f.submit "Добавить" %>
   </p>

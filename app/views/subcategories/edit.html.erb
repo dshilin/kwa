@@ -1,13 +1,20 @@
 <h1>Редатировать подкатегорию</h1>
-
-<% form_for(@subcategory) do |f| %>
+<% form_for :subcategory, @subcategory, :url => subcategory_path, :html => { :multipart => true, :method => :put } do |f| %>
+  
   <%= f.error_messages %>
-
+  
+  <p>Путь к фото<br/>
+  	<%= f.file_field :photo %>
+  </p> 
+  
   <p>Укажите подкатегорию<br/>
   	<%= f.text_field(:name) %>
   </p>
+  
   <p>
     <%= f.submit "Обновить" %>
   </p>
 <% end %>
+
 <%= link_to 'Назад', categories_path %>
+

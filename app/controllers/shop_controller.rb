@@ -6,11 +6,15 @@ class ShopController < ApplicationController
 
 def products_by_category
   @category = Category.find_by_id(params[:id])
-  @products = Product.paginate :page => params[:page], :conditions=>{:category_id => params[:id]}, :order => 'created_at DESC'
+  @subcategories = @category.subcategories
+  render :layout => "sub"
+  #@products = Product.paginate :page => params[:page], :conditions=>{:category_id => params[:id]}, :order => 'created_at DESC'
 end
 
 def products_by_subcategory
+  @category=Subcategory.find_by_id(params[:id]).category
   @products = Product.paginate :page => params[:page], :conditions=>{:subcategory_id => params[:id]}, :order => 'created_at DESC'
+  render :layout => "sub"
 end
 
 def checkout

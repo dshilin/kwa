@@ -60,7 +60,11 @@
 			<h3>Категории товаров:</h3>
 			<% for category in @categories %>
 			<h4><%= link_to category.name, :controller=>:shop, :action => :products_by_category, :id => category.id %></h4>
-
+			<%if category == @category %>
+                        <% for sub in category.subcategories do %>
+                          &nbsp;&nbsp;<%= link_to sub.name, :controller=>:shop, :action => :products_by_subcategory, :id => sub.id %><br/>
+                        <% end %>
+			<%end%>
 			<%end%>
 		<% permitted_to? :manage, :categories do %>
 			<%= link_to 'Управление категориями', categories_path %>
