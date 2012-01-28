@@ -1,6 +1,7 @@
 class Product < ActiveRecord::Base
   validates_presence_of :name, :price, :description, :category_id, :subcategory_id
   has_many :line_items
+  belongs_to :category
   has_attached_file :photo, :styles => { :medium => "140x180>"}
   cattr_reader :per_page
   @@per_page = 20

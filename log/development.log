@@ -11132,3 +11132,2128 @@ ActionController::RoutingError (No route matches "/images/Header.png" with {:met
   /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:25:46) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (1.9ms)
+Completed in 306ms (View: 187, DB: 10) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:25:46) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+Completed in 20ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:25:46) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:25:46) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.9ms)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 27ms (View: 17, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:25:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:25:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.3ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (2.0ms)
+  [4;36;1mSubcategory Load (0.4ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 123ms (View: 96, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:25:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:25:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 72ms (View: 59, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:25:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:25:57) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 55ms (View: 13, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:25:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:25:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '2') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '2') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 55ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:25:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:26:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '2') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 50ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:26:25) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '4') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 80ms (View: 70, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/4]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:26:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '3') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '3') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 54ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:27) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:26:29) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 53ms (View: 43, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:29) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:26:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '2') LIMIT 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mProduct Load (0.8ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '2') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 54ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:26:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 53ms (View: 44, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:26:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:29:23) [GET]
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (1.8ms)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 69ms (View: 30, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:29:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:29:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.2ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:29:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:29:31) [GET]
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 27ms (View: 16, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:29:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2012-01-28 09:29:32) [GET]
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 39ms (View: 24, DB: 1) | 200 OK [http://0.0.0.0/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:29:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#new (for 127.0.0.1 at 2012-01-28 09:29:34) [GET]
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/new
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 54ms (View: 38, DB: 1) | 200 OK [http://0.0.0.0/products/new]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:29:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#subcategory_list (for 127.0.0.1 at 2012-01-28 09:29:35) [GET]
+  Parameters: {"category_id"=>"1"}
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering products/subcategory_list
+  [4;36;1mSubcategory Load (0.4ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+Completed in 24ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/products/subcategory_list?category_id=1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#create (for 127.0.0.1 at 2012-01-28 09:29:51) [POST]
+  Parameters: {"commit"=>"Добавить", "authenticity_token"=>"q3yGsxQDjJAC0gtrHVVEB6m9xsaBkC/7gBAoVRQd54k=", "product"=>{"price"=>"fdghdfgh", "name"=>"fgh", "photo"=>#<File:/tmp/RackMultipart20120128-2572-1hyjqu0-0>, "category_id"=>"1", "description"=>"fghdfghfdg", "subcategory_id"=>"1"}}
+  [4;35;1mCategory Load (1.4ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+[paperclip] identify '-format' '%wx%h' '/tmp/stream,2572,0.jpg[0]' 2>/dev/null
+[paperclip] convert '/tmp/stream,2572,0.jpg[0]' '-resize' '140x180>' '/tmp/stream,2572,0,2572,0' 2>/dev/null
+  [4;36;1mProduct Create (0.6ms)[0m   [0;1mINSERT INTO "products" ("name", "price", "created_at", "photo_file_size", "updated_at", "photo_file_name", "photo_content_type", "category_id", "photo_updated_at", "description", "subcategory_id") VALUES('fgh', 0.0, '2012-01-28 05:29:51', 19623, '2012-01-28 05:29:51', 'img1035_40805.jpg', 'image/jpeg', 1, '2012-01-28 05:29:51', 'fghdfghfdg', 1)[0m
+[paperclip] Saving attachments.
+[paperclip] saving /home/snayp/Aptana RadRails Workspace/kwa/public/system/photos/1/medium/img1035_40805.jpg
+[paperclip] saving /home/snayp/Aptana RadRails Workspace/kwa/public/system/photos/1/original/img1035_40805.jpg
+Redirected to http://0.0.0.0:3000/products/1
+Completed in 493ms (DB: 3) | 302 Found [http://0.0.0.0/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:29:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: categories.product_id: SELECT * FROM "categories" WHERE ("categories".product_id = 1) LIMIT 1[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: categories.product_id: SELECT * FROM "categories" WHERE ("categories".product_id = 1)  LIMIT 1):
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.4ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:31:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `product' for #<Class:0xb69d3684>):
+  /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/will_paginate-2.3.16/lib/will_paginate/finder.rb:170:in `method_missing'
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (24.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:32:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.3ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `Product' for #<Class:0xb67e4bc0>):
+  /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/will_paginate-2.3.16/lib/will_paginate/finder.rb:170:in `method_missing'
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (26.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:32:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `Product' for #<Class:0xb6856860>):
+  /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/will_paginate-2.3.16/lib/will_paginate/finder.rb:170:in `method_missing'
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (56.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:32:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `Product' for #<Class:0xb69356f0>):
+  /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/will_paginate-2.3.16/lib/will_paginate/finder.rb:170:in `method_missing'
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendered rescues/_trace (23.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:33:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such column: categories.product_id: SELECT * FROM "categories" WHERE ("categories".product_id = 1) LIMIT 1[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: categories.product_id: SELECT * FROM "categories" WHERE ("categories".product_id = 1)  LIMIT 1):
+  app/controllers/products_controller.rb:17:in `show'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:36:56) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (5.0ms)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 92ms (View: 49, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:36:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:37:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.9ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 33ms (View: 21, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:37:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.9ms)
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 31ms (View: 20, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:37:46) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:37:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.9ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 32ms (View: 18, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:37:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 31ms (View: 19, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:37:51) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 31ms (View: 22, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#index (for 127.0.0.1 at 2012-01-28 09:37:52) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" [0m
+Rendering template within layouts/application
+Rendering products/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 22ms (View: 7, DB: 1) | 200 OK [http://0.0.0.0/products]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:37:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 18, DB: 1) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:37:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '2') LIMIT 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '2') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 26ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:37:57) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '3') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 3) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 3) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:37:59) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '5') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 5) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 5) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/5]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:37:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:38:00) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '4') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 23ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/4]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:38:01) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '3') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '3') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 4) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 25ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/3]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:38:03) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 23ms (View: 13, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:38:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 29ms (View: 15, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:04) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:38:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.3ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 18, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:06) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#add_to_cart (for 127.0.0.1 at 2012-01-28 09:38:07) [POST]
+  Parameters: {"commit"=>"Добавить в корзину", "authenticity_token"=>"q3yGsxQDjJAC0gtrHVVEB6m9xsaBkC/7gBAoVRQd54k=", "id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering shop/add_to_cart
+Rendered shop/_cart_item (4.0ms)
+Rendered shop/_cart (10.8ms)
+Completed in 39ms (View: 28, DB: 1) | 200 OK [http://0.0.0.0/shop/add_to_cart/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#empty_cart (for 127.0.0.1 at 2012-01-28 09:38:09) [POST]
+  Parameters: {"authenticity_token"=>"q3yGsxQDjJAC0gtrHVVEB6m9xsaBkC/7gBAoVRQd54k="}
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.3ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+Redirected to http://0.0.0.0:3000/
+Completed in 14ms (DB: 1) | 302 Found [http://0.0.0.0/shop/empty_cart]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:38:09) [GET]
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.9ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 43ms (View: 31, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:09) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:38:11) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '2') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 21ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:38:11) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:57:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 24ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:57:01) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 28ms (View: 15, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:57:02) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 29ms (View: 18, DB: 1) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#edit (for 127.0.0.1 at 2012-01-28 09:57:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering products/edit
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 41ms (View: 26, DB: 1) | 200 OK [http://0.0.0.0/products/1/edit]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:07) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#subcategory_list (for 127.0.0.1 at 2012-01-28 09:57:07) [GET]
+  Parameters: {"category_id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering products/subcategory_list
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://0.0.0.0/products/subcategory_list?category_id=1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:57:16) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:57:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '2') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 22ms (View: 11, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:17) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:57:19) [GET]
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:57:20) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.8ms)
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 27ms (View: 17, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:57:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '2') LIMIT 1[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;35;1mProduct Load (0.1ms)[0m   [0mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '2') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 25ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#index (for 127.0.0.1 at 2012-01-28 09:57:23) [GET]
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mProduct Load (0.2ms)[0m   [0mSELECT * FROM "products" ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering shop/index
+Rendered shop/_cart (0.8ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 29ms (View: 20, DB: 1) | 200 OK [http://0.0.0.0/]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:23) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_category (for 127.0.0.1 at 2012-01-28 09:57:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mCategory Load (0.5ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (0.2ms)[0m   [0mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;36;1mCategory Load (0.1ms)[0m   [0;1mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = '1') LIMIT 1[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_category
+Rendered shop/_cart (0.9ms)
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 24ms (View: 14, DB: 1) | 200 OK [http://0.0.0.0/shop/products_by_category/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:24) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:57:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 16, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ProductsController#show (for 127.0.0.1 at 2012-01-28 09:57:26) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."id" = 1) [0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+Rendering template within layouts/sub
+Rendering products/show
+Rendered products/_cart (0.9ms)
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;35;1mRole Load (0.1ms)[0m   [0mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 30ms (View: 19, DB: 2) | 200 OK [http://0.0.0.0/products/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:57:30) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.3ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '2') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.1ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '2') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 25ms (View: 12, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/2]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:31) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ShopController#products_by_subcategory (for 127.0.0.1 at 2012-01-28 09:57:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCategory Load (0.5ms)[0m   [0mSELECT * FROM "categories" [0m
+  [4;36;1mCategory Load (0.2ms)[0m   [0;1mSELECT * FROM categories c WHERE id not in (34)[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM categories c WHERE id in (34)[0m
+  [4;36;1mSubcategory Load (0.1ms)[0m   [0;1mSELECT * FROM "subcategories" WHERE ("subcategories"."id" = '1') LIMIT 1[0m
+  [4;35;1mCategory Load (0.1ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 1) [0m
+  [4;36;1mProduct Load (0.2ms)[0m   [0;1mSELECT * FROM "products" WHERE ("products"."subcategory_id" = '1') ORDER BY created_at DESC LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/sub
+Rendering shop/products_by_subcategory
+Rendered shop/_cart (0.8ms)
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) LIMIT 1[0m
+  [4;36;1mRole Load (0.1ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+  [4;35;1mSubcategory Load (0.1ms)[0m   [0mSELECT * FROM "subcategories" WHERE ("subcategories".category_id = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "roles" WHERE ("roles"."id" = 1) [0m
+Completed in 29ms (View: 16, DB: 2) | 200 OK [http://0.0.0.0/shop/products_by_subcategory/1]
+DEPRECATION WARNING: Giving :session_key to SessionStore is deprecated, please use :key instead. (called from new at /home/snayp/.rvm/gems/ruby-1.8.7-p352@rails2.3/gems/actionpack-2.3.8/lib/action_controller/middleware_stack.rb:72)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2012-01-28 09:57:32) [GET]
+
+ActionController::RoutingError (No route matches "/images/Header.png" with {:method=>:get}):
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/snayp/.rvm/rubies/ruby-1.8.7-p352/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
