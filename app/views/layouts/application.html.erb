@@ -25,9 +25,16 @@
 <div align="center">
   	<div class="splitcontentright">
  	
-	  <div id="categories">
+	  <div id="novinki">
 	   	<% for novinki in @novinki %>
 			<h3><%=novinki.name%></h3>
+			<%for p in novinki.products do%>
+				<div class='product'>
+					<h4><%=h p.name %></h4>
+    				<%= link_to image_tag(p.photo.url(:medium)), p %>
+    				<h4>Цена: <%= number_to_currency(p.price, :unit => 'руб', :format => "%n %u") %></h4>
+				</div>
+			<%end%>
 		<%end%>
 	  </div>
  	</div> 

@@ -23,8 +23,8 @@ class ApplicationController < ActionController::Base
  
  def find_categories
    @categories_full = Category.find(:all)
-   @categories = Category.find_by_sql "SELECT * FROM categories c WHERE id not in (34)"
-   @novinki = Category.find_by_sql "SELECT * FROM categories c WHERE id in (34)"
+   @categories = Category.find_by_sql "SELECT * FROM categories c WHERE id not in (7)"
+   @novinki = Category.find_by_sql "SELECT * FROM categories c WHERE id in (7)"
  end
 
  def find_user_cart

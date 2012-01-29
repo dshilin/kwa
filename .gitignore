@@ -4,3 +4,4 @@ public/concept_album/*
 db/*.sqlite3
 public/system/*
 .tmp*
+/app/controllers/application_controller.rb

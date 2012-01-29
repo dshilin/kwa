@@ -207,3 +207,9 @@ html>body #content1 { min-height: 716px; }
 .splitcontentleft{float:left; width:19%;}
 .splitcontentcenter{float:center; width:59%;}
 .splitcontentright{float:right; width:19%;}
+
+#novinki {
+	text-align:center;
+	background-color: #fffdd7;
+	padding:10px;
+}
